@@ -1,0 +1,27 @@
+# 2-matrix_divided.txt
+# Mark Oladeinde <markoladeinde@gmail.com>
+
+==============================
+How to Use 2-matrix_divided.py
+==============================
+
+This module defines a matrix division function ``matrix_divided(matrix, div)``.
+
+Usage
+=====
+
+``matrix_divided(...)`` returns a new matrix that is a copy of the parameter ``matrix`` with all elements divided by ``div``.
+
+Invalid Matrices
+================
+
+The parameter ``matrix`` must be a list of lists consisting of either ints or floats. If ``matrix`` is not a list, a TypeError is raised.
+
+All the rows in ``matrix`` must be the same size. If any rows are of different sizes, a new TypeError is raised.
+
+Invalid Divisors
+================
+
+The parameter ``div`` must be either an int or float. Otherwise, a TypeError is raised.
+
+``div`` must also be non-zero. Otherwise, a ZeroDivisionError is raised.
